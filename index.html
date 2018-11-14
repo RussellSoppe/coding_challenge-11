@@ -2,9 +2,14 @@
 
 <html>
 <head>
-	<!-- <meta charset="UTF-8"> -->
-  	<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> --> <!-- displays site properly based on user's device -->
+	<meta charset="UTF-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
  	<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+ <!-- 	<style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  	</style> -->
 
 	<title>Hello</title>
 
@@ -98,7 +103,7 @@
 
 
 <!-- Flowing Conversations -->
-<div class="bgwavenobg center">
+<div id="bgwavenobg" class=" center">
 	<img id="flowingconversation" class="spacer200" src="./images/illustration-flowing-conversation.svg"></img>
 	<div class="spacer200">
 		<div class="title spacer100">Flowing Conversations</div>
@@ -139,42 +144,45 @@
 	</div>
 
 	<div  id="bluebacker">
-		<div class="bottominfocontact">
+		<div id="bottominfocontact">
 			<!-- Newsletter Sign Up -->
 			<div>
 				<div class="spacer50 left45">
 					<div class="title white">Newsletter</div>
-					<div id="newslettertext" class="white">To recieve tips on how to grow your community, sign up to our weekly newsletter. We’ll never 
+					<div  class="content401">To recieve tips on how to grow your community, sign up to our weekly newsletter. We’ll never 
 					send you spam or pass on your email address.</div>
 				</div>
 				<!-- Sign Up -->
-				<div class="spacer50 left45">
-					<div class="spacer50 center">
+				<!-- need to add spacer to mobile piece -->
+				<div id="subelement" class="white">
+					<div id="subscribe">
 						<input id="whitebar"></input>
 					</div>
-					<div id="subscribe">
+					<div id="whitebardiv">
 						<button id="subscribebtn">Subscribe</button>
 					</div>
 				</div>
+
 			</div>
+			
 
 			<!-- Contact and Info -->
 			<div>
 				<!-- Company Slogan/Bio and Logo -->
-				<div class="spacer100">
-					<img class="left45 spacer50" src="./images/logow.svg"></img>
-					<div class="content400 white left45">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla quam, hendrerit lacinia 
+				<div class="spacer100 left45">
+					<img id="logow" class="spacer50" src="./images/logow.svg"></img>
+					<div class="content401">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla quam, hendrerit lacinia 
 					vestibulum a, ultrices quis sem.</div>
 				</div>
 				<!-- Company Contact Info -->
 				<div>
 					<div class="alitcenter contacticons spacer50 left45">
 						<img src="./images/icon-phone.svg" width="40px" height="50px"></img>
-						<div class="content400 white left25">Phone: +1-543-123-4567</div>
+						<div class="content401 left25">Phone: +1-543-123-4567</div>
 					</div>
 					<div class="alitcenter contacticons spacer50 left45">
 						<img src="./images/icon-email.svg" width="40px" height="50px"></img>
-						<div class="content400 white left25">example@huddle.com</div>
+						<div class="content401 left25">example@huddle.com</div>
 					</div>
 				</div>
 				<!-- Social Media Links -->
