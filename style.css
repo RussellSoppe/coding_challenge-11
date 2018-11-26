@@ -1,3 +1,31 @@
+/*Developer Tools*/
+
+.pinkbox{
+	border: solid;
+	border-color: pink;
+}
+
+.redbox{
+	border: solid;
+	border-color: red;
+}
+
+.bluebox{
+	border: solid;
+	border-color: blue;
+}
+
+.blackbox{
+	border: solid;
+	border-color: black;
+	width: 50%;
+}
+
+.purplebox{
+	border: solid;
+	border-color: purple;
+}
+
 /*Universals*/
 
 .title{
@@ -26,7 +54,7 @@
 	font-weight: 400; /*or 600, or 700*/
 	/*font-family: 'Poppins', sans-serif;*/
 	font-size: 1em;
-	padding-left: 45px;
+	padding-left: 0px;
 	padding-right: 45px;
 }
 
@@ -66,14 +94,19 @@
     border: solid;
     border-radius: 40px;
     color: hsl(322, 100%, 66%);
+
     padding: 20px;
+	margin: 4px 2px;
+
     text-align: center;
     text-decoration: none;
     display: inline-block;
+
     font-size: 16px;
-    margin: 4px 2px;
+    
     height: 30px;
     width: auto;
+    line-height: 0px;
 }
 
 .buttonpink{
@@ -92,10 +125,16 @@
 	flex-direction: column;
 }
 
+.infographjustify{
+	display: flex;
+	justify-content: flex-start;
+	padding-left: 60px;
+}
+
 .infographimg{
-	height: 150px;
-	width: 150px;
-	padding-left: 180px;
+	height: 60px;
+	width: 60px;
+	/*padding-left: 180px;*/
 }
 
 .infotext{
@@ -112,15 +151,14 @@
 .contacticons{
 	display: flex;
 	align-content: row;
-	font-size: 2em;
 }
 
 .socialicons{
 	display: flex;
 	align-content: row;
 	justify-content: space-between;
-	width: 40%;
-	font-size: 4em;
+	width: 60%;
+	font-size: 3em;
 	color:white;
 }
 
@@ -130,11 +168,6 @@
 
 .left25{
 	padding-left: 25px;
-}
-
-.alitcenter{
-	display: flex;
-	align-items: center;
 }
 
 
@@ -170,6 +203,16 @@
 	width: auto;
 }
 
+#phoneicon{
+ 	width: 45px;
+ 	height: 45px;
+}
+
+#emailicon{
+	width: 45px;
+ 	height: 45px;
+}
+
 
 /*Specific Id's*/
 
@@ -188,6 +231,15 @@
 	flex-direction:  column;
 }
 
+#subelement {
+	padding-left: 45px;
+	padding-bottom: 50px;
+}
+
+#subscribe{
+	padding-left: 0px;
+}
+
 #whitebar{
 	width: 300px;
 	height: 50px;
@@ -199,6 +251,17 @@
 #whitebardiv{
 	padding-bottom: 50px;
 	text-align: center;
+	padding-left: 150px;
+}
+
+#subscribebtn {
+	color: white;
+	background-color: hsl(322, 100%, 66%);
+	width: 100px;
+	height: 50px;
+	border-radius: 20px;
+	border: none;
+	font-size: 1em;	
 }
 
 #newslettertext{
@@ -209,26 +272,6 @@
 	/*font-family: 'Poppins', sans-serif;*/
 	font-size: 2vw;
 }
-
-#subelement {
-	padding-left: 45px;
-	padding-bottom: 50px;
-}
-
-#subscribe{
-	padding-left: 0px;
-}
-
-#subscribebtn {
-	color: white;
-	background-color: hsl(322, 100%, 66%);
-	width: 100px;
-	height: 50px;
-	border-radius: 20px;
-	border: none;
-	font-size: 1em;
-}
-
 
 
 /*max width means less than or equal to amount*/
@@ -267,8 +310,8 @@ br {
 	font-weight: 400; /*or 600, or 700*/
 	/*font-family: 'Poppins', sans-serif;*/
 	font-size: 1em;
-/*	padding-left: 45px;
-	padding-right: 45px;*/
+	padding-left: 0px;
+	padding-right: 0px;
 	width: 50%;
 }
 
@@ -289,7 +332,7 @@ br {
 	color: hsl(192, 100%, 9%);
 	color: #00252E;
 	font-weight: 700;
-	font-size: 7vw;
+	font-size: 10vw;
 }
 
 .white{
@@ -300,6 +343,15 @@ br {
 	text-align: center;
 }
 
+.centerflex {
+	display: flex;
+	justify-content: center;
+}
+
+.spacearound {
+	display: flex;
+	justify-content: space-around;
+}
 
 /*Repeated Elements*/
 
@@ -334,15 +386,21 @@ br {
 	align-items: center;
 }
 
+.infographjustify{
+	display: flex;
+	justify-content: flex-start;
+	padding-left: 0px;
+}
+
 .infographimg{
-	height: 50px;
-	width: 50px;
-	/*padding-left: 180px;*/
+	height: 90px;
+	width: 90px;
+	padding-left: 0px;
 }
 
 .infotext{
 	font-family:'Open+Sans', sans-serif;
-	font-size: 1.5em;
+	font-size: 2.5em;
 	color: grey;
 }
 
@@ -370,7 +428,7 @@ br {
 }
 
 .left45{
-	/*padding-left: 45px;*/
+	padding-left: 45px;
 }
 
 .left25{
@@ -398,16 +456,19 @@ br {
 #growtogether{
 	height: 500px;
 	width: auto;
+	padding-right: 200px;
 }
 
 #flowingconversation{
 	height: 500px;
 	width: auto;
+	padding-left: 200px;
 }
 
 #yourusers {
 	height: 500px;
 	width: auto;
+	padding-right: 200px;
 }
 
 #logow{
@@ -453,6 +514,7 @@ br {
 #whitebardiv{
 	padding-bottom: 50px;
 	text-align: center;
+	padding-left: 0px;
 }
 
 #whitebar{
