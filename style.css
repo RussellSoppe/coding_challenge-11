@@ -27,6 +27,10 @@
 }
 
 /*Universals*/
+a {
+	color: white;
+
+}
 
 .title{
 	color: hsl(192, 100%, 9%);
@@ -273,7 +277,10 @@
 	font-size: 2vw;
 }
 
-
+#credits{
+	color: white;
+	font-size: .5em;
+}
 /*max width means less than or equal to amount*/
 /*min-width means greater than or equal to amount*/
 @media only screen and (min-width: 724px) {
