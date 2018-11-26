@@ -220,6 +220,11 @@ a {
 
 /*Specific Id's*/
 
+#infograph{
+	display: flex;
+	flex-direction: column;
+}
+
 #topnav{
 	display: flex;
 	justify-content: space-between;
@@ -323,15 +328,19 @@ br {
 }
 
 .spacer50{
-	padding-bottom: 50px;
+	padding-bottom: 25px;
 }
 
 .spacer100{
-	padding-bottom: 100px;
+	padding-bottom: 50px;
 }
 
 .spacer200{
-	padding-bottom: 200px;
+	padding-bottom: 100px;
+}
+
+.spacer201{
+	padding-bottom: 400px;
 }
 
 .content700{
@@ -339,7 +348,7 @@ br {
 	color: hsl(192, 100%, 9%);
 	color: #00252E;
 	font-weight: 700;
-	font-size: 10vw;
+	font-size: 5vw;
 }
 
 .white{
@@ -400,14 +409,14 @@ br {
 }
 
 .infographimg{
-	height: 90px;
-	width: 90px;
+	height: 50px;
+	width: 50px;
 	padding-left: 0px;
 }
 
 .infotext{
 	font-family:'Open+Sans', sans-serif;
-	font-size: 2.5em;
+	font-size: 2em;
 	color: grey;
 }
 
@@ -456,7 +465,7 @@ br {
 }
 
 #screenmockups{
-	width: 80%;
+	width: 50%;
 	height: auto;
 }
 
@@ -485,6 +494,12 @@ br {
 
 
 /*Specific Id's*/
+
+#infograph{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
 
 #topnav{
 	display: flex;
