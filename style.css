@@ -388,11 +388,11 @@ br {
 .buttonpink{
 	color: white;
 	background-color: hsl(322, 100%, 66%);
-	width: 500px;
-	height: 100px;
+	width: 400px;
+	height: 50px;
 	border-radius: 80px;
 	border: none;
-	font-size: 2em;
+	font-size: 1.5em;
 }
 
 .bgwave{
