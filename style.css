@@ -245,8 +245,11 @@ a {
 }
 
 #subelement {
-	padding-left: 45px;
-	padding-bottom: 50px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	padding-left: 0px;
+	padding-bottom: 0px;
 }
 
 #subscribe{
@@ -534,6 +537,7 @@ br {
 #subelement {
 	display:flex;
 	justify-content: flex-start;
+	flex-direction: row;
 	color:white;
 }
 
