@@ -257,11 +257,11 @@ a {
 }
 
 #whitebar{
-	width: 300px;
+	width: 250px;
 	height: 50px;
 	background-color: white;
 	border-radius: 15px;
-	font-size: 4em;
+	font-size: 2em;
 }
 
 #whitebardiv{
@@ -552,6 +552,7 @@ br {
 	height: 95px;
 	background-color: white;
 	border-radius: 15px;
+	font-size: 2em;
 }
 
 #subscribe{
